@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+pip = "*"
+install = "*"
+graphene = ">=2.0"
+sqlalchemy = "*"
+graphene-sqlalchemy = "*"
+flask = "*"
+flask-graphql = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
